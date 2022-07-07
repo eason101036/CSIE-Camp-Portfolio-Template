@@ -11,14 +11,14 @@ const step = ref(0);
         <Typing
             v-if="step >= 0"
             @done="step++"
-            text="My Portfolio"
+            text="eason101036"
             class="mb-2 block text-2xl sm:text-3xl lg:text-4xl"
         />
-        <Typing v-if="step >= 1" @done="step++" text="Hello!" :speed="60" />
+        <Typing v-if="step >= 1" @done="step++" text="hi!" :speed="60" />
         <a
             v-if="step >= 2"
             class="mt-8 flex items-center text-lg text-gray-500 transition-all hover:text-gray-700"
-            href="https://github.com/"
+            href="https://github.com/eason101036"
             target="_blank"
         >
             <MdiGithub class="mr-1 inline-block" />
@@ -32,7 +32,7 @@ const step = ref(0);
             target="_blank"
         >
             <MdiInstagram class="mr-1 inline-block" />
-            <Typing v-if="step >= 3" @done="step++" text="Instagram" :speed="60" />
+            <Typing v-if="step >= 3" @done="step++" text="none" :speed="60" />
         </a>
     </div>
 </template>
